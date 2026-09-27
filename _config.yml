@@ -3,7 +3,7 @@ title: Application Support Portfolio
 description: Application Support, SQL, and Technical Projects
 
 # Jekyll Theme
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 
 # Plugins
 plugins:
