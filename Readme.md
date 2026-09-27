@@ -130,6 +130,14 @@ Includes:
 * Environment
 * Current status
 
+## Application Import Verification
+
+The screenshot below shows a sample of the enterprise applications successfully loaded into the MySQL `applications` table. It provides a visual verification of the imported application records and their associated environment, status, and configuration data.
+
+![Application Import Verification](Screenshots/Verify%20Application%20Import.png)
+
+*Sample application records displayed after the application import and database verification process.*
+
 ### `incidents`
 
 Stores application incidents and their resolution information.
@@ -503,6 +511,6 @@ All applications, incidents, users, companies, operational metrics, and support 
 
 ## Author
 
-**Brian Walsh**
+[**Brian Walsh**](mailto:brpwalsh@gmail.com)
 
 Technical Support | Application Support | Technical Systems | SQL | Enterprise Applications
