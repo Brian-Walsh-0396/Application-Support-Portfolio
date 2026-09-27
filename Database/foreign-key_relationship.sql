@@ -1,0 +1,4 @@
+ALTER TABLE applications
+ADD CONSTRAINT fk_application_classification
+FOREIGN KEY (classification_id)
+REFERENCES enterprise_classifications(classification_id);
