@@ -1,9 +1,67 @@
+# Site Information
 title: Application Support Portfolio
 description: Application Support, SQL, and Technical Projects
 
+# Jekyll Theme
 remote_theme: pages-themes/architect@v0.2.0
 
+# Plugins
 plugins:
   - jekyll-remote-theme
 
+# Markdown
 markdown: kramdown
+highlighter: rouge
+
+# Site URL
+url: "https://brian-walsh-0396.github.io"
+baseurl: "/Application-Support-Portfolio.github.io"
+
+# Build Settings
+source: .
+destination: ./_site
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Files and Directories
+layouts_dir: _layouts
+includes_dir: _includes
+data_dir: _data
+
+# Sass
+sass:
+  sass_dir: _sass
+
+# Reading
+encoding: "utf-8"
+future: false
+unpublished: false
+show_drafts: false
+
+# Exclude Files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+
+# Kramdown Settings
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  entity_output: as_char
+  toc_levels:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
