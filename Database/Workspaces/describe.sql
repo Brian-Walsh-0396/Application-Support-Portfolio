@@ -1,1 +1,1 @@
-DESCRIBE applications;
+DESCRIBE applications
